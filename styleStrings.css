@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ECEEFF;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #565676;
+    padding: 25px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+nav ul li a {
+    font-family: 'Lucida Sans';
+    font-size: 23px;
+    color: #aeadf0;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+  
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main content Styles */
+main {
+    text-align: center;
+}
+
+.main-content {
+    margin: 20px auto;
+}
+
+h1 {
+    color: #a76571;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p{
+    color: #2a2a2a;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+/* Form Section Style */
+.form-section {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 23px;
+    color: #565676;
+    font-weight: bold;
+}
+  
+input[type="text"] {
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border: 1px solid #ebebeb;
+    border-color: #a76571;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styling the Giphy Section */
+.giphy-section {
+    text-align: center;
+}
+  
+.giphy-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+}
+
+/* Button Style */
+button{
+    background-color: #aeadf0;
+    border: 2px solid #aeadf0;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+div{
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*this is a custom class to create a semi transparent box*/
+.content{
+    font-style: italic;
+    color: #2a2a2a;
+    padding: 25px 20px;
+    border-radius: 5px;
+    background-color: rgba(195, 141, 148, 0.5);;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+    margin-top: 35px;
+}
+
+.centered-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    width: 100%;
+}

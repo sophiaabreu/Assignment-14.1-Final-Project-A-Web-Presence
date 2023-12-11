@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia's Game Page</title>
+    <script src="gameCode.js"></script>
+    <link rel="stylesheet" href="styleGame.css">
+   
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <nav>
+             <ul class="menu">
+                <li><a href="./indexx.html">Home</a></li>
+                <li><a href="./boards.html">Boards</a></li>
+                <li><a href="./game.html">Game</a></li>
+                <li><a href="./strings.html">Strings</a></li>
+                <li><a href="./table.html">Table</a></li>
+                <li><a href="./paint.html">Paint</a></li>
+             </ul>
+            </nav>
+        </div>    
+    </header>
+
+    <main>
+        <section class="game-section">
+          <h1>The Dice Den</h1>
+          <h2 class="blink_text">WANT TO PLAY CRAPS??</h2>
+    
+            <section class="rules">
+                <h4>THE RULES</h4>
+                <ol>
+                    <li>Roll two dice</li>
+                    <li>If the sum is 7 or 11, you lose!</li>
+                    <li>If the dice are equal or even, you win!</li>
+                </ol>
+            </section>
+    
+            <h4>Press the button to play craps:</h4>
+
+            <section class="play-craps-section">
+              <div class="dice-results">
+                <p>DIE 1 RESULT: <span id="die1Res">Press Play Craps for result</span></p>
+                <p>DIE 2 RESULT: <span id="die2Res">Press Play Craps for result</span></p>
+                <p>SUM RESULT: <span id="sumRes">Press Play Craps for result</span></p>
+                <p>FINAL RESULT: <span id="finalRes">Press Play Craps for result</span></p>
+              </div>
+            </section>
+
+            <button onclick="playCraps()" id="button">Play Craps</button>
+    
+            <div class="centered-div">
+                <div class="content">
+                Reload to use the Calculator to see if you are faster and get the result before the calculator!!
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center;">
+        Sophia Abreu <br>
+        University of Advancing Technology<br>
+        2625 W. Baseline Road<br>
+        Tempe, AZ 85283-1056<br>
+        <br>
+        877-UAT-GEEK
+    </footer>
+</body>
+</html>
